@@ -1,0 +1,70 @@
+[
+  {
+    "flavor": "base",
+    "apk_bytes": 15011237,
+    "permissions": [
+      "package: com.example.gabayai",
+      "uses-permission: name='android.permission.CAMERA'",
+      "permission: com.example.gabayai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "uses-permission: name='com.example.gabayai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+    ],
+    "native_libraries": [
+      "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+      "lib/arm64-v8a/libsurface_util_jni.so"
+    ],
+    "model": null
+  },
+  {
+    "flavor": "semantic",
+    "apk_bytes": 64208291,
+    "permissions": [
+      "package: com.example.gabayai.semantic",
+      "uses-permission: name='android.permission.CAMERA'",
+      "permission: com.example.gabayai.semantic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "uses-permission: name='com.example.gabayai.semantic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+    ],
+    "native_libraries": [
+      "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+      "lib/arm64-v8a/libonnxruntime.so",
+      "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "lib/arm64-v8a/libsurface_util_jni.so"
+    ],
+    "model": {
+      "path": "assets/models/minilm/model_qint8_arm64.onnx",
+      "bytes": 23026053,
+      "sha256": "4278337fd0ff3c68bfb6291042cad8ab363e1d9fbc43dcb499fe91c871902474",
+      "uncompressed": true
+    }
+  },
+  {
+    "flavor": "enhanced",
+    "apk_bytes": 1378153025,
+    "permissions": [
+      "package: com.example.gabayai.enhanced",
+      "uses-permission: name='android.permission.CAMERA'",
+      "permission: com.example.gabayai.enhanced.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "uses-permission: name='com.example.gabayai.enhanced.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+    ],
+    "native_libraries": [
+      "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "lib/arm64-v8a/libimage_processing_util_jni.so",
+      "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+      "lib/arm64-v8a/libonnxruntime.so",
+      "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "lib/arm64-v8a/libsurface_util_jni.so"
+    ],
+    "model": {
+      "path": "assets/models/bge/model.onnx",
+      "bytes": 1336749542,
+      "sha256": "deb82329ff0e9725a0d8407e434be40a7793725ce4e3032d8091f615130d0105",
+      "uncompressed": true
+    }
+  }
+]

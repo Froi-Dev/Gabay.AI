@@ -1,0 +1,68 @@
+Reusing configuration cache.
+> Task :app:generateSemanticDebugAndroidTestAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preSemanticDebugBuild UP-TO-DATE
+> Task :app:preSemanticDebugAndroidTestBuild SKIPPED
+> Task :app:generateSemanticDebugResValues UP-TO-DATE
+> Task :app:generateSemanticDebugResources UP-TO-DATE
+> Task :app:packageSemanticDebugResources UP-TO-DATE
+> Task :app:javaPreCompileSemanticDebug UP-TO-DATE
+> Task :app:processSemanticDebugNavigationResources UP-TO-DATE
+> Task :app:parseSemanticDebugLocalResources UP-TO-DATE
+> Task :app:generateSemanticDebugRFile UP-TO-DATE
+> Task :app:checkSemanticDebugAarMetadata UP-TO-DATE
+> Task :app:mapSemanticDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileSemanticDebugNavigationResources UP-TO-DATE
+> Task :app:mergeSemanticDebugResources UP-TO-DATE
+> Task :app:createSemanticDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksSemanticDebug UP-TO-DATE
+> Task :app:kspSemanticDebugKotlin UP-TO-DATE
+> Task :app:processSemanticDebugMainManifest UP-TO-DATE
+> Task :app:processSemanticDebugManifest UP-TO-DATE
+> Task :app:processSemanticDebugManifestForPackage UP-TO-DATE
+> Task :app:processSemanticDebugResources UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestResValues UP-TO-DATE
+> Task :app:compileSemanticDebugKotlin UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestResources UP-TO-DATE
+> Task :app:compileSemanticDebugJavaWithJavac NO-SOURCE
+> Task :app:bundleSemanticDebugClassesToCompileJar UP-TO-DATE
+> Task :app:packageSemanticDebugAndroidTestResources UP-TO-DATE
+> Task :app:javaPreCompileSemanticDebugAndroidTest UP-TO-DATE
+> Task :app:processSemanticDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:parseSemanticDebugAndroidTestLocalResources UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestRFile UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestAssets UP-TO-DATE
+> Task :app:compressSemanticDebugAndroidTestAssets UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:checkSemanticDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:desugarSemanticDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexSemanticDebugAndroidTest UP-TO-DATE
+> Task :app:mergeLibDexSemanticDebugAndroidTest UP-TO-DATE
+> Task :app:checkSemanticDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapSemanticDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:compileSemanticDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestResources UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestManifest UP-TO-DATE
+> Task :app:processSemanticDebugAndroidTestManifest UP-TO-DATE
+> Task :app:processSemanticDebugAndroidTestResources UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeSemanticDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeSemanticDebugNativeLibs UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripSemanticDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningSemanticDebugAndroidTest UP-TO-DATE
+> Task :app:writeSemanticDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:kspSemanticDebugAndroidTestKotlin
+> Task :app:compileSemanticDebugAndroidTestKotlin
+> Task :app:compileSemanticDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :app:processSemanticDebugAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeSemanticDebugAndroidTestJavaResource UP-TO-DATE
+> Task :app:dexBuilderSemanticDebugAndroidTest
+> Task :app:mergeProjectDexSemanticDebugAndroidTest
+> Task :app:packageSemanticDebugAndroidTest
+> Task :app:assembleSemanticDebugAndroidTest
+> Task :app:createSemanticDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+
+BUILD SUCCESSFUL in 4s
+54 actionable tasks: 5 executed, 49 up-to-date
+Configuration cache entry reused.

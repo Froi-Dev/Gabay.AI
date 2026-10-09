@@ -1,0 +1,196 @@
+Calculating task graph as no cached configuration is available for tasks: :app:assembleBaseRelease :app:assembleSemanticRelease :app:assembleEnhancedRelease :app:lintBaseRelease :app:lintSemanticRelease :app:lintEnhancedRelease
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preBaseReleaseBuild UP-TO-DATE
+> Task :app:mergeBaseReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeBaseReleaseNativeLibs UP-TO-DATE
+> Task :app:stripBaseReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractBaseReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeBaseReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkBaseReleaseDuplicateClasses UP-TO-DATE
+> Task :app:generateBaseReleaseResValues UP-TO-DATE
+> Task :app:generateBaseReleaseResources UP-TO-DATE
+> Task :app:packageBaseReleaseResources UP-TO-DATE
+> Task :app:processBaseReleaseNavigationResources UP-TO-DATE
+> Task :app:parseBaseReleaseLocalResources UP-TO-DATE
+> Task :app:generateBaseReleaseRFile UP-TO-DATE
+> Task :app:kspBaseReleaseKotlin
+> Task :app:compileBaseReleaseKotlin
+> Task :app:javaPreCompileBaseRelease UP-TO-DATE
+> Task :app:compileBaseReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeBaseReleaseArtProfile UP-TO-DATE
+> Task :app:checkBaseReleaseAarMetadata UP-TO-DATE
+> Task :app:mapBaseReleaseSourceSetPaths UP-TO-DATE
+> Task :app:compileBaseReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeBaseReleaseResources UP-TO-DATE
+> Task :app:createBaseReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksBaseRelease UP-TO-DATE
+> Task :app:processBaseReleaseMainManifest UP-TO-DATE
+> Task :app:processBaseReleaseManifest UP-TO-DATE
+> Task :app:processBaseReleaseManifestForPackage UP-TO-DATE
+> Task :app:processBaseReleaseResources UP-TO-DATE
+> Task :app:expandBaseReleaseArtProfileWildcards
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:mergeBaseReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processBaseReleaseJavaRes UP-TO-DATE
+> Task :app:mergeBaseReleaseJavaResource UP-TO-DATE
+> Task :app:mergeBaseReleaseStartupProfile UP-TO-DATE
+> Task :app:minifyBaseReleaseWithR8
+> Task :app:compileBaseReleaseArtProfile
+> Task :app:generateBaseReleaseAssets UP-TO-DATE
+> Task :app:mergeBaseReleaseAssets UP-TO-DATE
+> Task :app:compressBaseReleaseAssets UP-TO-DATE
+> Task :app:extractBaseReleaseVersionControlInfo UP-TO-DATE
+> Task :app:generateBaseReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeBaseRelease
+> Task :app:lintVitalReportBaseRelease SKIPPED
+> Task :app:lintVitalBaseRelease SKIPPED
+> Task :app:convertShrunkResourcesToBinaryBaseRelease UP-TO-DATE
+> Task :app:optimizeBaseReleaseResources UP-TO-DATE
+> Task :app:collectBaseReleaseDependencies UP-TO-DATE
+> Task :app:sdkBaseReleaseDependencyData UP-TO-DATE
+> Task :app:validateSigningBaseRelease UP-TO-DATE
+> Task :app:writeBaseReleaseAppMetadata UP-TO-DATE
+> Task :app:writeBaseReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:packageBaseRelease
+> Task :app:createBaseReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleBaseRelease
+> Task :app:preSemanticReleaseBuild UP-TO-DATE
+> Task :app:mergeSemanticReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeSemanticReleaseNativeLibs UP-TO-DATE
+> Task :app:stripSemanticReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractSemanticReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeSemanticReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkSemanticReleaseDuplicateClasses UP-TO-DATE
+> Task :app:generateSemanticReleaseResValues UP-TO-DATE
+> Task :app:generateSemanticReleaseResources UP-TO-DATE
+> Task :app:packageSemanticReleaseResources UP-TO-DATE
+> Task :app:processSemanticReleaseNavigationResources UP-TO-DATE
+> Task :app:parseSemanticReleaseLocalResources UP-TO-DATE
+> Task :app:generateSemanticReleaseRFile UP-TO-DATE
+> Task :app:kspSemanticReleaseKotlin
+> Task :app:compileSemanticReleaseKotlin
+> Task :app:javaPreCompileSemanticRelease UP-TO-DATE
+> Task :app:compileSemanticReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeSemanticReleaseArtProfile UP-TO-DATE
+> Task :app:checkSemanticReleaseAarMetadata UP-TO-DATE
+> Task :app:mapSemanticReleaseSourceSetPaths UP-TO-DATE
+> Task :app:compileSemanticReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeSemanticReleaseResources UP-TO-DATE
+> Task :app:createSemanticReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksSemanticRelease UP-TO-DATE
+> Task :app:processSemanticReleaseMainManifest UP-TO-DATE
+> Task :app:processSemanticReleaseManifest UP-TO-DATE
+> Task :app:processSemanticReleaseManifestForPackage UP-TO-DATE
+> Task :app:processSemanticReleaseResources UP-TO-DATE
+> Task :app:expandSemanticReleaseArtProfileWildcards
+> Task :app:mergeSemanticReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processSemanticReleaseJavaRes UP-TO-DATE
+> Task :app:mergeSemanticReleaseJavaResource UP-TO-DATE
+> Task :app:mergeSemanticReleaseStartupProfile UP-TO-DATE
+> Task :app:minifySemanticReleaseWithR8
+> Task :app:compileSemanticReleaseArtProfile
+> Task :app:generateSemanticReleaseAssets UP-TO-DATE
+> Task :app:mergeSemanticReleaseAssets UP-TO-DATE
+> Task :app:compressSemanticReleaseAssets UP-TO-DATE
+> Task :app:extractSemanticReleaseVersionControlInfo UP-TO-DATE
+> Task :app:generateSemanticReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeSemanticRelease
+> Task :app:lintVitalReportSemanticRelease SKIPPED
+> Task :app:lintVitalSemanticRelease SKIPPED
+> Task :app:convertShrunkResourcesToBinarySemanticRelease UP-TO-DATE
+> Task :app:optimizeSemanticReleaseResources UP-TO-DATE
+> Task :app:collectSemanticReleaseDependencies UP-TO-DATE
+> Task :app:sdkSemanticReleaseDependencyData UP-TO-DATE
+> Task :app:validateSigningSemanticRelease UP-TO-DATE
+> Task :app:writeSemanticReleaseAppMetadata UP-TO-DATE
+> Task :app:writeSemanticReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:packageSemanticRelease
+> Task :app:createSemanticReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleSemanticRelease
+> Task :app:preEnhancedReleaseBuild UP-TO-DATE
+> Task :app:mergeEnhancedReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeEnhancedReleaseNativeLibs UP-TO-DATE
+> Task :app:stripEnhancedReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractEnhancedReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeEnhancedReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkEnhancedReleaseDuplicateClasses UP-TO-DATE
+> Task :app:generateEnhancedReleaseResValues UP-TO-DATE
+> Task :app:generateEnhancedReleaseResources UP-TO-DATE
+> Task :app:packageEnhancedReleaseResources UP-TO-DATE
+> Task :app:processEnhancedReleaseNavigationResources UP-TO-DATE
+> Task :app:parseEnhancedReleaseLocalResources UP-TO-DATE
+> Task :app:generateEnhancedReleaseRFile UP-TO-DATE
+> Task :app:kspEnhancedReleaseKotlin
+> Task :app:compileEnhancedReleaseKotlin
+> Task :app:javaPreCompileEnhancedRelease UP-TO-DATE
+> Task :app:compileEnhancedReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeEnhancedReleaseArtProfile UP-TO-DATE
+> Task :app:checkEnhancedReleaseAarMetadata UP-TO-DATE
+> Task :app:mapEnhancedReleaseSourceSetPaths UP-TO-DATE
+> Task :app:compileEnhancedReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeEnhancedReleaseResources UP-TO-DATE
+> Task :app:createEnhancedReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksEnhancedRelease UP-TO-DATE
+> Task :app:processEnhancedReleaseMainManifest UP-TO-DATE
+> Task :app:processEnhancedReleaseManifest UP-TO-DATE
+> Task :app:processEnhancedReleaseManifestForPackage UP-TO-DATE
+> Task :app:processEnhancedReleaseResources UP-TO-DATE
+> Task :app:expandEnhancedReleaseArtProfileWildcards
+> Task :app:mergeEnhancedReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processEnhancedReleaseJavaRes UP-TO-DATE
+> Task :app:mergeEnhancedReleaseJavaResource UP-TO-DATE
+> Task :app:mergeEnhancedReleaseStartupProfile UP-TO-DATE
+> Task :app:minifyEnhancedReleaseWithR8
+> Task :app:compileEnhancedReleaseArtProfile
+> Task :app:generateEnhancedReleaseAssets UP-TO-DATE
+> Task :app:mergeEnhancedReleaseAssets UP-TO-DATE
+> Task :app:compressEnhancedReleaseAssets UP-TO-DATE
+> Task :app:extractEnhancedReleaseVersionControlInfo UP-TO-DATE
+> Task :app:generateEnhancedReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeEnhancedRelease
+> Task :app:lintVitalReportEnhancedRelease SKIPPED
+> Task :app:lintVitalEnhancedRelease SKIPPED
+> Task :app:convertShrunkResourcesToBinaryEnhancedRelease UP-TO-DATE
+> Task :app:optimizeEnhancedReleaseResources UP-TO-DATE
+> Task :app:collectEnhancedReleaseDependencies UP-TO-DATE
+> Task :app:sdkEnhancedReleaseDependencyData UP-TO-DATE
+> Task :app:validateSigningEnhancedRelease UP-TO-DATE
+> Task :app:writeEnhancedReleaseAppMetadata UP-TO-DATE
+> Task :app:writeEnhancedReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:packageEnhancedRelease
+> Task :app:createEnhancedReleaseApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleEnhancedRelease
+> Task :app:generateBaseReleaseLintReportModel
+> Task :app:lintAnalyzeBaseRelease
+
+> Task :app:lintReportBaseRelease
+Wrote HTML report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-baseRelease.html
+Wrote SARIF report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-baseRelease.sarif
+
+> Task :app:lintBaseRelease
+> Task :app:generateSemanticReleaseLintReportModel
+> Task :app:lintAnalyzeSemanticRelease
+
+> Task :app:lintReportSemanticRelease
+Wrote HTML report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-semanticRelease.html
+Wrote SARIF report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-semanticRelease.sarif
+
+> Task :app:lintSemanticRelease
+> Task :app:generateEnhancedReleaseLintReportModel
+> Task :app:lintAnalyzeEnhancedRelease
+
+> Task :app:lintReportEnhancedRelease
+Wrote HTML report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-enhancedRelease.html
+Wrote SARIF report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-enhancedRelease.sarif
+
+> Task :app:lintEnhancedRelease
+
+BUILD SUCCESSFUL in 28m 35s
+151 actionable tasks: 36 executed, 115 up-to-date
+Configuration cache entry stored.

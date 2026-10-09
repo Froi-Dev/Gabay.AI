@@ -1,0 +1,314 @@
+Calculating task graph as no cached configuration is available for tasks: :app:assembleBaseDebug :app:assembleSemanticDebug :app:assembleBaseDebugAndroidTest :app:assembleSemanticDebugAndroidTest :app:testBaseDebugUnitTest :app:testSemanticDebugUnitTest :app:lintBaseDebug :app:lintSemanticDebug :app:assembleBaseRelease :app:assembleSemanticRelease
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Task :app:generateBaseReleaseAssets UP-TO-DATE
+> Task :app:generateSemanticReleaseAssets UP-TO-DATE
+> Task :app:generateBaseDebugAndroidTestAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:generateSemanticDebugAssets UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestAssets UP-TO-DATE
+> Task :app:generateBaseDebugAssets UP-TO-DATE
+> Task :app:preBaseDebugAndroidTestBuild SKIPPED
+> Task :app:preSemanticDebugUnitTestBuild UP-TO-DATE
+> Task :app:preSemanticDebugAndroidTestBuild SKIPPED
+> Task :app:preBaseDebugUnitTestBuild UP-TO-DATE
+> Task :app:preSemanticDebugBuild UP-TO-DATE
+> Task :app:preBaseDebugBuild UP-TO-DATE
+> Task :app:mergeBaseDebugNativeDebugMetadata NO-SOURCE
+> Task :app:processBaseDebugAndroidTestNavigationResources
+> Task :app:javaPreCompileBaseDebugAndroidTest
+> Task :app:createBaseDebugCompatibleScreenManifests
+> Task :app:desugarBaseDebugFileDependencies
+> Task :app:extractDeepLinksBaseDebug
+> Task :app:mapBaseDebugSourceSetPaths
+> Task :app:mergeBaseDebugAndroidTestAssets
+> Task :app:generateBaseDebugResources
+> Task :app:writeBaseDebugAppMetadata
+> Task :app:validateSigningBaseDebug
+> Task :app:processBaseDebugNavigationResources
+> Task :app:compileBaseDebugNavigationResources
+> Task :app:mergeBaseDebugJniLibFolders
+> Task :app:mergeSemanticDebugNativeDebugMetadata NO-SOURCE
+> Task :app:writeBaseDebugSigningConfigVersions
+> Task :app:generateBaseDebugAndroidTestResources
+> Task :app:javaPreCompileBaseDebug
+> Task :app:checkBaseDebugAarMetadata
+> Task :app:javaPreCompileSemanticDebug
+> Task :app:generateSemanticDebugResources
+> Task :app:checkBaseDebugDuplicateClasses
+> Task :app:mergeBaseDebugAssets
+> Task :app:packageBaseDebugResources
+> Task :app:processBaseDebugMainManifest
+> Task :app:parseBaseDebugLocalResources
+> Task :app:mergeLibDexBaseDebug
+> Task :app:processBaseDebugManifest
+> Task :app:generateBaseDebugRFile
+> Task :app:compressBaseDebugAssets
+> Task :app:processBaseDebugManifestForPackage
+> Task :app:desugarSemanticDebugFileDependencies
+> Task :app:mapSemanticDebugSourceSetPaths
+> Task :app:packageSemanticDebugResources
+> Task :app:checkSemanticDebugDuplicateClasses
+> Task :app:createSemanticDebugCompatibleScreenManifests
+> Task :app:mergeLibDexSemanticDebug
+> Task :app:extractDeepLinksSemanticDebug
+> Task :app:mergeBaseDebugNativeLibs
+> Task :app:generateSemanticDebugGlobalSynthetics
+> Task :app:mergeSemanticDebugJniLibFolders
+
+> Task :app:stripBaseDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:validateSigningSemanticDebug
+> Task :app:writeSemanticDebugAppMetadata
+> Task :app:generateBaseDebugGlobalSynthetics
+> Task :app:writeSemanticDebugSigningConfigVersions
+> Task :app:compressBaseDebugAndroidTestAssets
+> Task :app:packageBaseDebugAndroidTestResources
+> Task :app:parseBaseDebugAndroidTestLocalResources
+> Task :app:generateBaseDebugAndroidTestRFile
+> Task :app:checkBaseDebugAndroidTestDuplicateClasses
+> Task :app:desugarBaseDebugAndroidTestFileDependencies
+> Task :app:generateBaseDebugAndroidTestGlobalSynthetics
+> Task :app:mergeLibDexBaseDebugAndroidTest
+> Task :app:checkBaseDebugAndroidTestAarMetadata
+> Task :app:mapBaseDebugAndroidTestSourceSetPaths
+> Task :app:compileBaseDebugAndroidTestNavigationResources
+> Task :app:mergeExtDexBaseDebugAndroidTest
+> Task :app:mergeBaseDebugAndroidTestManifest
+> Task :app:processBaseDebugAndroidTestManifest
+> Task :app:mergeBaseDebugAndroidTestJniLibFolders
+> Task :app:mergeBaseDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripBaseDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningBaseDebugAndroidTest
+> Task :app:writeBaseDebugAndroidTestSigningConfigVersions
+> Task :app:generateSemanticDebugAndroidTestResources
+> Task :app:packageSemanticDebugAndroidTestResources
+> Task :app:processSemanticDebugAndroidTestNavigationResources
+> Task :app:parseSemanticDebugAndroidTestLocalResources
+> Task :app:checkSemanticDebugAarMetadata
+> Task :app:javaPreCompileSemanticDebugAndroidTest
+> Task :app:generateSemanticDebugAndroidTestRFile
+> Task :app:mergeSemanticDebugAndroidTestAssets
+> Task :app:compressSemanticDebugAndroidTestAssets
+> Task :app:processSemanticDebugNavigationResources
+> Task :app:checkSemanticDebugAndroidTestDuplicateClasses
+> Task :app:processSemanticDebugMainManifest
+> Task :app:processSemanticDebugManifest
+> Task :app:compileSemanticDebugNavigationResources
+> Task :app:processSemanticDebugManifestForPackage
+> Task :app:desugarSemanticDebugAndroidTestFileDependencies
+> Task :app:parseSemanticDebugLocalResources
+> Task :app:mergeLibDexSemanticDebugAndroidTest
+> Task :app:checkSemanticDebugAndroidTestAarMetadata
+> Task :app:generateSemanticDebugRFile
+> Task :app:mapSemanticDebugAndroidTestSourceSetPaths
+> Task :app:compileSemanticDebugAndroidTestNavigationResources
+> Task :app:mergeSemanticDebugAssets
+> Task :app:kspBaseDebugKotlin
+> Task :app:mergeExtDexSemanticDebugAndroidTest
+> Task :app:compressSemanticDebugAssets
+> Task :app:mergeSemanticDebugAndroidTestJniLibFolders
+> Task :app:validateSigningSemanticDebugAndroidTest
+> Task :app:writeSemanticDebugAndroidTestSigningConfigVersions
+> Task :app:javaPreCompileBaseDebugUnitTest
+> Task :app:generateSemanticDebugAndroidTestGlobalSynthetics
+> Task :app:extractProguardFiles
+> Task :app:preBaseReleaseBuild UP-TO-DATE
+> Task :app:mergeBaseReleaseJniLibFolders
+> Task :app:javaPreCompileSemanticDebugUnitTest
+> Task :app:mergeSemanticDebugAndroidTestManifest
+> Task :app:processSemanticDebugAndroidTestManifest
+> Task :app:generateBaseReleaseResources
+> Task :app:packageBaseReleaseResources
+> Task :app:processBaseReleaseNavigationResources
+> Task :app:mergeSemanticDebugAndroidTestResources
+> Task :app:mergeSemanticDebugNativeLibs
+> Task :app:parseBaseReleaseLocalResources
+> Task :app:mergeSemanticDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripSemanticDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:generateBaseReleaseRFile
+> Task :app:checkBaseReleaseDuplicateClasses
+> Task :app:javaPreCompileBaseRelease
+
+> Task :app:stripSemanticDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libonnxruntime.so, libonnxruntime4j_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:mergeExtDexBaseDebug
+> Task :app:mergeBaseDebugAndroidTestResources
+> Task :app:checkBaseReleaseAarMetadata
+> Task :app:mapBaseReleaseSourceSetPaths
+> Task :app:compileBaseReleaseNavigationResources
+> Task :app:mergeBaseDebugResources
+> Task :app:mergeSemanticDebugResources
+> Task :app:mergeExtDexSemanticDebug
+> Task :app:createBaseReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksBaseRelease
+> Task :app:processBaseReleaseMainManifest
+> Task :app:processSemanticDebugAndroidTestResources
+> Task :app:processBaseReleaseManifest
+> Task :app:mergeBaseReleaseStartupProfile
+> Task :app:processBaseReleaseManifestForPackage
+> Task :app:mergeBaseReleaseArtProfile
+> Task :app:extractBaseReleaseVersionControlInfo
+> Task :app:validateSigningBaseRelease
+> Task :app:writeBaseReleaseAppMetadata
+> Task :app:writeBaseReleaseSigningConfigVersions
+> Task :app:preSemanticReleaseBuild UP-TO-DATE
+> Task :app:mergeSemanticReleaseJniLibFolders
+> Task :app:mergeBaseReleaseAssets
+> Task :app:mergeBaseReleaseNativeLibs
+> Task :app:compressBaseReleaseAssets
+> Task :app:generateSemanticReleaseResources
+> Task :app:processBaseDebugAndroidTestResources
+> Task :app:collectBaseReleaseDependencies
+> Task :app:packageSemanticReleaseResources
+> Task :app:javaPreCompileSemanticRelease
+> Task :app:checkSemanticReleaseDuplicateClasses
+> Task :app:processSemanticReleaseNavigationResources
+> Task :app:checkSemanticReleaseAarMetadata
+> Task :app:mapSemanticReleaseSourceSetPaths
+> Task :app:compileSemanticReleaseNavigationResources
+> Task :app:parseSemanticReleaseLocalResources
+> Task :app:generateSemanticReleaseRFile
+
+> Task :app:stripBaseReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:mergeSemanticReleaseArtProfile
+> Task :app:createSemanticReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksSemanticRelease
+> Task :app:extractBaseReleaseNativeSymbolTables
+> Task :app:mergeBaseReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeSemanticReleaseStartupProfile
+> Task :app:processSemanticReleaseMainManifest
+> Task :app:processSemanticReleaseManifest
+> Task :app:processSemanticReleaseManifestForPackage
+> Task :app:sdkBaseReleaseDependencyData
+> Task :app:extractSemanticReleaseVersionControlInfo
+> Task :app:validateSigningSemanticRelease
+> Task :app:writeSemanticReleaseAppMetadata
+> Task :app:writeSemanticReleaseSigningConfigVersions
+> Task :app:mergeSemanticReleaseAssets
+> Task :app:processSemanticDebugResources
+> Task :app:processBaseDebugResources
+> Task :app:compressSemanticReleaseAssets
+> Task :app:kspSemanticDebugKotlin
+> Task :app:collectSemanticReleaseDependencies
+> Task :app:sdkSemanticReleaseDependencyData
+> Task :app:mergeBaseReleaseResources
+> Task :app:mergeSemanticReleaseNativeLibs
+
+> Task :app:stripSemanticReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libonnxruntime.so, libonnxruntime4j_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:extractSemanticReleaseNativeSymbolTables
+> Task :app:mergeSemanticReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeSemanticReleaseResources
+> Task :app:processBaseReleaseResources
+> Task :app:kspBaseReleaseKotlin
+> Task :app:compileBaseDebugKotlin
+> Task :app:processSemanticReleaseResources
+> Task :app:kspSemanticReleaseKotlin
+> Task :app:compileBaseDebugJavaWithJavac NO-SOURCE
+> Task :app:processBaseDebugJavaRes
+> Task :app:bundleBaseDebugClassesToRuntimeJar
+> Task :app:bundleBaseDebugClassesToCompileJar
+> Task :app:dexBuilderBaseDebug
+> Task :app:kspBaseDebugUnitTestKotlin
+> Task :app:mergeProjectDexBaseDebug
+> Task :app:kspBaseDebugAndroidTestKotlin
+> Task :app:mergeBaseDebugJavaResource
+> Task :app:packageBaseDebug
+> Task :app:createBaseDebugApkListingFileRedirect
+> Task :app:assembleBaseDebug
+> Task :app:compileBaseDebugUnitTestKotlin
+> Task :app:compileBaseDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processBaseDebugUnitTestJavaRes
+> Task :app:compileSemanticDebugKotlin
+> Task :app:compileSemanticDebugJavaWithJavac NO-SOURCE
+> Task :app:processSemanticDebugJavaRes
+> Task :app:compileBaseDebugAndroidTestKotlin
+> Task :app:compileBaseDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :app:processBaseDebugAndroidTestJavaRes
+> Task :app:compileBaseReleaseKotlin
+> Task :app:mergeBaseDebugAndroidTestJavaResource
+> Task :app:compileSemanticReleaseKotlin
+> Task :app:lintAnalyzeBaseDebug
+> Task :app:generateBaseDebugLintReportModel
+> Task :app:generateBaseDebugAndroidTestLintModel
+
+> Task :app:testBaseDebugUnitTest
+
+FieldMatcherTest > specializedVocabularyCannotBorrowOrdinaryFieldMeaning FAILED
+    java.lang.AssertionError at FieldMatcherTest.kt:169
+
+FieldMatcherTest > fuzzyOcrTypoIsSuggestionAndRequiresConfirmation FAILED
+    java.lang.AssertionError at FieldMatcherTest.kt:39
+
+FieldMatcherTest > unknownSpecializedFieldIsNotAccepted FAILED
+    java.lang.AssertionError at FieldMatcherTest.kt:46
+
+26 tests completed, 3 failed
+
+> Task :app:dexBuilderBaseDebugAndroidTest
+> Task :app:testBaseDebugUnitTest FAILED
+> Task :app:generateBaseDebugUnitTestLintModel
+> Task :app:bundleSemanticDebugClassesToRuntimeJar
+> Task :app:bundleSemanticDebugClassesToCompileJar
+> Task :app:mergeProjectDexBaseDebugAndroidTest
+> Task :app:dexBuilderSemanticDebug
+> Task :app:mergeSemanticDebugJavaResource
+> Task :app:generateSemanticDebugLintReportModel
+> Task :app:lintAnalyzeBaseDebugAndroidTest
+> Task :app:lintAnalyzeBaseDebugUnitTest
+> Task :app:lintAnalyzeBaseDebugAndroidTest FAILED
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:testBaseDebugUnitTest'.
+> There were failing tests. See the report at: file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/tests/testBaseDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:lintAnalyzeBaseDebugAndroidTest' (registered by plugin 'com.android.internal.application').
+> A failure occurred while executing com.android.build.gradle.internal.lint.AndroidLintWorkAction
+   > Unexpected failure during lint analysis (this is a bug in lint or one of the libraries it depends on)
+     
+     Message: Unexpected failure during lint analysis (this is a bug in lint or one of the libraries it depends on)
+     
+     Message: Unexpected failure during lint analysis of NativeWorkflowTest.kt (this is a bug in lint or one of the libraries it depends on)
+     
+     Message: @NotNull method com/intellij/openapi/application/AsyncExecutionService.getService must not return null
+     Stack: \\\`IllegalStateException:AsyncExecutionService.$$$reportNull$$$0(AsyncExecutionService.java:-1)←AsyncExecutionService.getService(AsyncExecutionService.java:31)←AppUIExecutor.onWriteThread(AppUIExecutor.java:42)←PsiFileImpl.rebuildStub(PsiFileImpl.java:1155)←FileTrees.reconcilePsi(FileTrees.java:203)←FileTrees.withAst(FileTrees.java:146)←PsiFileImpl.loadTreeElement(PsiFileImpl.java:284)←PsiFileImpl.calcTreeElement(PsiFileImpl.java:897)←StubBasedPsiElementBase.getNode(StubBasedPsiElementBase.java:137)←ASTDelegatePsiElement.getText(ASTDelegatePsiElement.java:146)←KotlinUImportStatement$ImportReference.<init>(KotlinUImportStatement.kt:51)←KotlinUImportStatement.getImportRef(KotlinUImportStatement.kt:35)←KotlinUImportStatement.<init>(KotlinUImportStatement.kt:41)←BaseKotlinConverter$convertPsiElement$1$17.invoke(BaseKotlinConverter.kt:909)←BaseKotlinConverter$convertPsiElement$1$17.invoke(BaseKotlinConverter.kt:909)←BaseKotlinConverter.convertPsiElement$build$lambda$0(BaseKotlinConverter.kt:824)←BaseKotlinConverter.convertPsiElement(BaseKotlinConverter.kt:1086)←BaseKotlinConverter.convertDeclarationOrElement(BaseKotlinConverter.kt:442)←FirKotlinUastLanguagePlugin.convertElement(FirKotlinUastLanguagePlugin.kt:62)←KotlinUFile.getImports(KotlinUFile.kt:165)←UFile.accept(UFile.kt:88)←UastLintUtilsKt.acceptSourceFile(UastLintUtils.kt:956)←UElementVisitor$visitFile$2.run(UElementVisitor.kt:191)←LintClient.runReadAction(LintClient.kt:1655)←LintCliClient.runReadAction(LintCliClient.kt:231)←LintDriver$LintClientWrapper.runReadAction(LintDriver.kt:2694)←UElementVisitor.visitFile(UElementVisitor.kt:189)←LintDriver$visitUastDetectors$1.run(LintDriver.kt:2032)←LintClient.runReadAction(LintClient.kt:1655)←LintCliClient.runReadAction(LintCliClient.kt:231)←LintDriver$LintClientWrapper.runReadAction(LintDriver.kt:2694)←LintDriver.visitUastDetectors(LintDriver.kt:2030)←LintDriver.visitUast(LintDriver.kt:2004)←LintDriver.runFileDetectors(LintDriver.kt:1234)←LintDriver.checkProject(LintDriver.kt:1041)←LintDriver.checkProjectRoot(LintDriver.kt:607)←LintDriver.access$checkProjectRoot(LintDriver.kt:179)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:434)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:431)←LintDriver.doAnalyze(LintDriver.kt:490)←LintDriver.analyzeOnly(LintDriver.kt:431)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:265)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:262)←LintCliClient.run(LintCliClient.kt:311)←LintCliClient.analyzeOnly(LintCliClient.kt:262)←Main.run(Main.java:1786)←Main.run(Main.java:287)←DirectMethodHandleAccessor.invoke(null:-1)←Method.invoke(null:-1)←AndroidLintWorkAction.invokeLintMainRunMethod(AndroidLintWorkAction.kt:103)←AndroidLintWorkAction.runLint(AndroidLintWorkAction.kt:90)←AndroidLintWorkAction.execute(AndroidLintWorkAction.kt:64)←DefaultWorkerServer.execute(DefaultWorkerServer.java:68)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:64)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:61)←ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:102)←NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:61)←AbstractWorker$1.call(AbstractWorker.java:44)←AbstractWorker$1.call(AbstractWorker.java:41)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)←AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)←NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:58)←DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)←FutureTask.run(null:-1)←DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:191)←DefaultConditionalExecutionQueue$ExecutionRunner.access$500(DefaultConditionalExecutionQueue.java:112)←DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:168)←Factories$1.create(Factories.java:30)←DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:280)←ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)←DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:278)←DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:270)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:129)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:134)←DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:163)←DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:125)←Executors$RunnableAdapter.call(null:-1)←FutureTask.run(null:-1)←ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)←AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)←ThreadPoolExecutor.runWorker(null:-1)←ThreadPoolExecutor$Worker.run(null:-1)←Thread.run(null:-1)\\\`
+     
+     You can run with --stacktrace or set environment variable \\\`LINT_PRINT_STACKTRACE=true\\\` to dump a full stacktrace to stdout.
+     Stack: \`RuntimeException:LintDriver$Companion.handleDetectorError(LintDriver.kt:3603)←LintDriver$Companion.handleDetectorError$default(LintDriver.kt:3468)←LintDriver$Companion.handleDetectorError(LintDriver.kt:3464)←UElementVisitor.visitFile(UElementVisitor.kt:233)←LintDriver$visitUastDetectors$1.run(LintDriver.kt:2032)←LintClient.runReadAction(LintClient.kt:1655)←LintCliClient.runReadAction(LintCliClient.kt:231)←LintDriver$LintClientWrapper.runReadAction(LintDriver.kt:2694)←LintDriver.visitUastDetectors(LintDriver.kt:2030)←LintDriver.visitUast(LintDriver.kt:2004)←LintDriver.runFileDetectors(LintDriver.kt:1234)←LintDriver.checkProject(LintDriver.kt:1041)←LintDriver.checkProjectRoot(LintDriver.kt:607)←LintDriver.access$checkProjectRoot(LintDriver.kt:179)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:434)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:431)←LintDriver.doAnalyze(LintDriver.kt:490)←LintDriver.analyzeOnly(LintDriver.kt:431)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:265)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:262)←LintCliClient.run(LintCliClient.kt:311)←LintCliClient.analyzeOnly(LintCliClient.kt:262)←Main.run(Main.java:1786)←Main.run(Main.java:287)←DirectMethodHandleAccessor.invoke(null:-1)←Method.invoke(null:-1)←AndroidLintWorkAction.invokeLintMainRunMethod(AndroidLintWorkAction.kt:103)←AndroidLintWorkAction.runLint(AndroidLintWorkAction.kt:90)←AndroidLintWorkAction.execute(AndroidLintWorkAction.kt:64)←DefaultWorkerServer.execute(DefaultWorkerServer.java:68)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:64)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:61)←ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:102)←NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:61)←AbstractWorker$1.call(AbstractWorker.java:44)←AbstractWorker$1.call(AbstractWorker.java:41)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)←AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)←NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:58)←DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)←FutureTask.run(null:-1)←DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:191)←DefaultConditionalExecutionQueue$ExecutionRunner.access$500(DefaultConditionalExecutionQueue.java:112)←DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:168)←Factories$1.create(Factories.java:30)←DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:280)←ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)←DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:278)←DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:270)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:129)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:134)←DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:163)←DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:125)←Executors$RunnableAdapter.call(null:-1)←FutureTask.run(null:-1)←ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)←AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)←ThreadPoolExecutor.runWorker(null:-1)←ThreadPoolExecutor$Worker.run(null:-1)←Thread.run(null:-1)\`
+     
+     You can run with --stacktrace or set environment variable \`LINT_PRINT_STACKTRACE=true\` to dump a full stacktrace to stdout.
+     Stack: `RuntimeException:LintDriver$Companion.handleDetectorError(LintDriver.kt:3603)←LintDriver$Companion.handleDetectorError$default(LintDriver.kt:3468)←LintDriver$Companion.handleDetectorError(LintDriver.kt:3464)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:436)←LintDriver$analyzeOnly$1.invoke(LintDriver.kt:431)←LintDriver.doAnalyze(LintDriver.kt:490)←LintDriver.analyzeOnly(LintDriver.kt:431)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:265)←LintCliClient$analyzeOnly$1.invoke(LintCliClient.kt:262)←LintCliClient.run(LintCliClient.kt:311)←LintCliClient.analyzeOnly(LintCliClient.kt:262)←Main.run(Main.java:1786)←Main.run(Main.java:287)←DirectMethodHandleAccessor.invoke(null:-1)←Method.invoke(null:-1)←AndroidLintWorkAction.invokeLintMainRunMethod(AndroidLintWorkAction.kt:103)←AndroidLintWorkAction.runLint(AndroidLintWorkAction.kt:90)←AndroidLintWorkAction.execute(AndroidLintWorkAction.kt:64)←DefaultWorkerServer.execute(DefaultWorkerServer.java:68)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:64)←NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:61)←ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:102)←NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:61)←AbstractWorker$1.call(AbstractWorker.java:44)←AbstractWorker$1.call(AbstractWorker.java:41)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)←DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)←DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)←DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)←DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)←AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)←NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:58)←DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)←FutureTask.run(null:-1)←DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:191)←DefaultConditionalExecutionQueue$ExecutionRunner.access$500(DefaultConditionalExecutionQueue.java:112)←DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:168)←Factories$1.create(Factories.java:30)←DefaultWorkerLeaseService.lambda$withLocksAcquired$0(DefaultWorkerLeaseService.java:280)←ResourceLockStatistics$1.measure(ResourceLockStatistics.java:43)←DefaultWorkerLeaseService.withLocksAcquired(DefaultWorkerLeaseService.java:278)←DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:270)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:129)←DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:134)←DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:163)←DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:125)←Executors$RunnableAdapter.call(null:-1)←FutureTask.run(null:-1)←ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)←AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)←ThreadPoolExecutor.runWorker(null:-1)←ThreadPoolExecutor$Worker.run(null:-1)←Thread.run(null:-1)`
+     
+     You can run with --stacktrace or set environment variable `LINT_PRINT_STACKTRACE=true` to dump a full stacktrace to stdout.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 2m 57s
+207 actionable tasks: 207 executed
+Configuration cache entry stored.

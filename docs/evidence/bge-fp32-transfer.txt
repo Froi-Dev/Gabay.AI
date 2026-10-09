@@ -1,0 +1,2 @@
+app/src/enhanced/assets/models/bge/model.onnx: 1 file pushed, 0 skipped. 51.4 MB/s (1336749542 bytes in 24.782s)
+VERIFIED_PRIVATE_BYTES=1336749542

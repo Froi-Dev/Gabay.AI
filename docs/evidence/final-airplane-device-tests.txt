@@ -1,0 +1,29 @@
+BEFORE_TEST_AIRPLANE
+1
+Wifi is disabled
+
+com.example.gabayai.semantic.OfflineSemanticTest:
+SEMANTIC_SUGGESTION model=BGE large v1.5 FP32 query=Home_address field=Residential_address cosine=0.8777038 confirmation_required=true after_suggestion_pss_kb=206281
+...
+SEMANTIC_METRICS model=BGE large v1.5 FP32 first_ms=6607 warm_ms=104 postal_zip_cosine=0.7847231 postal_birth_cosine=0.59142077 dimensions=1024 loaded_pss_kb=1515021
+.
+com.example.gabayai.ParentSectionRegressionTest:INSTRUMENTATION_STATUS: gabay_public_fixture_golden=/data/user/0/com.example.gabayai.enhanced/cache/parent-section-public-golden.json
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: gabay_parent_crop_metrics={"fixture":"user-blank-parent-section","ocr_ms":363,"room_and_matching_ms":241,"ocr_line_count":21,"matched_fields":7,"name_fields":6,"father_name_fields":3,"mother_name_fields":3,"source_backed_fields":0,"form_identity_confirmed":false}
+INSTRUMENTATION_STATUS_CODE: 0
+..
+com.example.gabayai.NativeWorkflowTest:..
+com.example.gabayai.SliceTest:INSTRUMENTATION_STATUS: gabay_slice_metrics={"fixture":"bundled-public-psa-birth","preparation_ms":92,"ocr_ms":1004,"room_seed_and_matching_ms":209,"width":1584,"height":1224,"ocr_line_count":94,"matched_fields":20,"source_pdf_hash_valid":true,"physical_camera_test":false}
+INSTRUMENTATION_STATUS_CODE: 0
+.
+com.example.gabayai.imaging.OfflineImagingTest:....
+com.example.gabayai.CameraCaptureTest:.
+
+Time: 45.811
+
+OK (14 tests)
+
+
+AFTER_TEST_AIRPLANE
+1
+Wifi is disabled

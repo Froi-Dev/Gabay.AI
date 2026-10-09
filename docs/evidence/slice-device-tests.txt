@@ -1,0 +1,11 @@
+Airplane mode during tests: 1
+Wi-Fi during tests: 0
+
+com.example.gabayai.ExampleInstrumentedTest:.
+com.example.gabayai.imaging.OfflineImagingTest:....
+
+Time: 0.812
+
+OK (5 tests)
+
+

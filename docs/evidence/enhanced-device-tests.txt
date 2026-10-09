@@ -1,0 +1,340 @@
+Performing Streamed Install
+Success
+Performing Streamed Install
+Success
+AIRPLANE_MODE
+1
+Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+[Wi-Fi identifiers and traffic counters redacted; enable/disable status is retained.]
+INSTRUMENTATION_STATUS: class=com.example.gabayai.CameraCaptureTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.CameraCaptureTest:
+INSTRUMENTATION_STATUS: test=actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.CameraCaptureTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.CameraCaptureTest.exists(CameraCaptureTest.kt:85)
+	at com.example.gabayai.CameraCaptureTest.actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome(CameraCaptureTest.kt:39)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome(com.example.gabayai.CameraCaptureTest):
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.CameraCaptureTest.exists(CameraCaptureTest.kt:85)
+	at com.example.gabayai.CameraCaptureTest.actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome(CameraCaptureTest.kt:39)
+
+INSTRUMENTATION_STATUS: test=actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.NativeWorkflowTest:
+INSTRUMENTATION_STATUS: test=savedEnglishPreferenceSurvivesActivityRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.savedEnglishPreferenceSurvivesActivityRecreation(NativeWorkflowTest.kt:90)
+
+INSTRUMENTATION_STATUS: stream=
+Error in savedEnglishPreferenceSurvivesActivityRecreation(com.example.gabayai.NativeWorkflowTest):
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.savedEnglishPreferenceSurvivesActivityRecreation(NativeWorkflowTest.kt:90)
+
+INSTRUMENTATION_STATUS: test=savedEnglishPreferenceSurvivesActivityRecreation
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion(NativeWorkflowTest.kt:21)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion(com.example.gabayai.NativeWorkflowTest):
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion(NativeWorkflowTest.kt:21)
+
+INSTRUMENTATION_STATUS: test=actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.ParentSectionRegressionTest:
+INSTRUMENTATION_STATUS: test=realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: gabay_public_fixture_golden=/data/user/0/com.example.gabayai.enhanced/cache/parent-section-public-golden.json
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: gabay_parent_crop_metrics={"fixture":"user-blank-parent-section","ocr_ms":360,"room_and_matching_ms":226,"ocr_line_count":21,"matched_fields":7,"name_fields":6,"father_name_fields":3,"mother_name_fields":3,"source_backed_fields":0,"form_identity_confirmed":false}
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aRetiredPublicDefinitionAndItsAliasesAreRemovedOnCatalogueReseed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aRetiredPublicDefinitionAndItsAliasesAreRemovedOnCatalogueReseed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.SliceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.SliceTest:
+INSTRUMENTATION_STATUS: test=bundledPublicFormTraversesImageOcrRoomAndSourceBackedExplanation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: gabay_slice_metrics={"fixture":"bundled-public-psa-birth","preparation_ms":154,"ocr_ms":1102,"room_seed_and_matching_ms":171,"width":1584,"height":1224,"ocr_line_count":94,"matched_fields":20,"source_pdf_hash_valid":true,"physical_camera_test":false}
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.SliceTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bundledPublicFormTraversesImageOcrRoomAndSourceBackedExplanation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.imaging.OfflineImagingTest:
+INSTRUMENTATION_STATUS: test=largePhotoIsBoundedAndPrivateTemporaryFileIsDeleted
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=largePhotoIsBoundedAndPrivateTemporaryFileIsDeleted
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=invalidAndOversizedFilesFailWithoutRetainingAnIntermediateCopy
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=invalidAndOversizedFilesFailWithoutRetainingAnIntermediateCopy
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=exifRotationIsAppliedOnceAndNormalizedFileDropsLocation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=exifRotationIsAppliedOnceAndNormalizedFileDropsLocation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=bundledLatinModelReadsRealBitmapAndReturnsAlignedBoxes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.imaging.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bundledLatinModelReadsRealBitmapAndReturnsAlignedBoxes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.semantic.OfflineSemanticTest:
+INSTRUMENTATION_STATUS: test=actualInferenceReturnsOnlyUnconfirmedSuggestions
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=
+SEMANTIC_SUGGESTION model=BGE large v1.5 FP32 query=Home_address field=Residential_address cosine=0.8777038 confirmation_required=true after_suggestion_pss_kb=237517
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualInferenceReturnsOnlyUnconfirmedSuggestions
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=closingReleasesEngineAndRejectsFurtherInference
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=closingReleasesEngineAndRejectsFurtherInference
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=directivesValuesLowConfidenceAndSourceSpecificRolesAreRejected
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=directivesValuesLowConfidenceAndSourceSpecificRolesAreRejected
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualBundledModelProducesNormalizedMeaningfulEmbeddings
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=
+SEMANTIC_METRICS model=BGE large v1.5 FP32 first_ms=8753 warm_ms=101 postal_zip_cosine=0.7847231 postal_birth_cosine=0.59142077 dimensions=1024 loaded_pss_kb=1542900
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=14
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualBundledModelProducesNormalizedMeaningfulEmbeddings
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 60.078
+There were 3 failures:
+1) actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome(com.example.gabayai.CameraCaptureTest)
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.CameraCaptureTest.exists(CameraCaptureTest.kt:85)
+	at com.example.gabayai.CameraCaptureTest.actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome(CameraCaptureTest.kt:39)
+2) savedEnglishPreferenceSurvivesActivityRecreation(com.example.gabayai.NativeWorkflowTest)
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.savedEnglishPreferenceSurvivesActivityRecreation(NativeWorkflowTest.kt:90)
+3) actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion(com.example.gabayai.NativeWorkflowTest)
+java.lang.IllegalStateException: No compose hierarchies found in the app. Possible reasons include: (1) the Activity that calls setContent did not launch; (2) setContent was not called; (3) setContent was called before the ComposeTestRule ran. If setContent is called by the Activity, make sure the Activity is launched after the ComposeTestRule runs
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes(TestOwner.kt:106)
+	at androidx.compose.ui.test.TestOwnerKt.getAllSemanticsNodes$default(TestOwner.kt:98)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes(SemanticsNodeInteraction.kt:249)
+	at androidx.compose.ui.test.SemanticsNodeInteractionCollection.fetchSemanticsNodes$default(SemanticsNodeInteraction.kt:245)
+	at com.example.gabayai.NativeWorkflowTest.exists(NativeWorkflowTest.kt:145)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage$lambda$6(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest$$ExternalSyntheticLambda3.invoke(D8$$SyntheticClass:0)
+	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment$AndroidComposeUiTestImpl.waitUntil(ComposeUiTest.android.kt:801)
+	at androidx.compose.ui.test.junit4.AndroidComposeTestRule.waitUntil(AndroidComposeTestRule.android.kt:378)
+	at com.example.gabayai.NativeWorkflowTest.chooseHomeLanguage(NativeWorkflowTest.kt:138)
+	at com.example.gabayai.NativeWorkflowTest.actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion(NativeWorkflowTest.kt:21)
+
+FAILURES!!!
+Tests run: 14,  Failures: 3
+
+
+INSTRUMENTATION_CODE: -1

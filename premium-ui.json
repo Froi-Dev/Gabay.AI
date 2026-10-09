@@ -1,0 +1,15 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["app/src/main/java"],
+  "locale": "fil-PH",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Form", "Select/Listbox", "Toast", "Scrollbar"],
+  "ownership": {"Select/Listbox": "native"},
+  "requiredCommands": ["unit", "build", "device"],
+  "commands": {
+    "unit": "gradlew.bat :app:testBaseDebugUnitTest :app:testSemanticDebugUnitTest :app:testEnhancedDebugUnitTest",
+    "build": "gradlew.bat :app:assembleBaseRelease :app:assembleSemanticRelease :app:assembleEnhancedRelease :app:lintBaseDebug :app:lintSemanticDebug :app:lintEnhancedDebug --max-workers=1",
+    "device": "gradlew.bat :app:connectedBaseDebugAndroidTest :app:connectedSemanticDebugAndroidTest :app:connectedEnhancedDebugAndroidTest"
+  },
+  "evidence": {"failurePaths": "app/src/androidTest/java/com/example/gabayai/imaging/OfflineImagingTest.kt"}
+}

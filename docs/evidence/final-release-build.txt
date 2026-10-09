@@ -1,0 +1,175 @@
+Calculating task graph as no cached configuration is available for tasks: :app:assembleBaseRelease :app:assembleSemanticRelease :app:assembleEnhancedRelease
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preBaseReleaseBuild UP-TO-DATE
+> Task :app:mergeBaseReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeBaseReleaseNativeLibs UP-TO-DATE
+> Task :app:stripBaseReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractBaseReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeBaseReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkBaseReleaseDuplicateClasses
+> Task :app:generateBaseReleaseResValues
+> Task :app:generateBaseReleaseResources
+> Task :app:packageBaseReleaseResources
+> Task :app:processBaseReleaseNavigationResources
+> Task :app:parseBaseReleaseLocalResources
+> Task :app:generateBaseReleaseRFile UP-TO-DATE
+> Task :app:kspBaseReleaseKotlin
+> Task :app:compileBaseReleaseKotlin
+> Task :app:javaPreCompileBaseRelease UP-TO-DATE
+> Task :app:compileBaseReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeBaseReleaseArtProfile UP-TO-DATE
+> Task :app:checkBaseReleaseAarMetadata
+> Task :app:mapBaseReleaseSourceSetPaths
+> Task :app:compileBaseReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeBaseReleaseResources
+> Task :app:createBaseReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksBaseRelease UP-TO-DATE
+> Task :app:processBaseReleaseMainManifest
+> Task :app:processBaseReleaseManifest
+> Task :app:processBaseReleaseManifestForPackage
+> Task :app:processBaseReleaseResources
+> Task :app:expandBaseReleaseArtProfileWildcards
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:mergeBaseReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processBaseReleaseJavaRes
+> Task :app:mergeBaseReleaseJavaResource
+> Task :app:mergeBaseReleaseStartupProfile UP-TO-DATE
+> Task :app:minifyBaseReleaseWithR8
+> Task :app:compileBaseReleaseArtProfile
+> Task :app:generateBaseReleaseAssets UP-TO-DATE
+> Task :app:mergeBaseReleaseAssets UP-TO-DATE
+> Task :app:compressBaseReleaseAssets UP-TO-DATE
+> Task :app:extractBaseReleaseVersionControlInfo UP-TO-DATE
+> Task :app:generateBaseReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeBaseRelease
+> Task :app:lintVitalReportBaseRelease
+> Task :app:lintVitalBaseRelease
+> Task :app:convertShrunkResourcesToBinaryBaseRelease
+> Task :app:optimizeBaseReleaseResources
+> Task :app:collectBaseReleaseDependencies
+> Task :app:sdkBaseReleaseDependencyData
+> Task :app:validateSigningBaseRelease UP-TO-DATE
+> Task :app:writeBaseReleaseAppMetadata UP-TO-DATE
+> Task :app:writeBaseReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:packageBaseRelease
+> Task :app:createBaseReleaseApkListingFileRedirect
+> Task :app:assembleBaseRelease
+> Task :app:preSemanticReleaseBuild UP-TO-DATE
+> Task :app:mergeSemanticReleaseJniLibFolders UP-TO-DATE
+> Task :app:mergeSemanticReleaseNativeLibs UP-TO-DATE
+> Task :app:stripSemanticReleaseDebugSymbols UP-TO-DATE
+> Task :app:extractSemanticReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:mergeSemanticReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkSemanticReleaseDuplicateClasses
+> Task :app:generateSemanticReleaseResValues
+> Task :app:generateSemanticReleaseResources
+> Task :app:packageSemanticReleaseResources
+> Task :app:processSemanticReleaseNavigationResources
+> Task :app:parseSemanticReleaseLocalResources
+> Task :app:generateSemanticReleaseRFile UP-TO-DATE
+> Task :app:kspSemanticReleaseKotlin
+> Task :app:compileSemanticReleaseKotlin
+> Task :app:javaPreCompileSemanticRelease UP-TO-DATE
+> Task :app:compileSemanticReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeSemanticReleaseArtProfile UP-TO-DATE
+> Task :app:checkSemanticReleaseAarMetadata
+> Task :app:mapSemanticReleaseSourceSetPaths
+> Task :app:compileSemanticReleaseNavigationResources UP-TO-DATE
+> Task :app:mergeSemanticReleaseResources
+> Task :app:createSemanticReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksSemanticRelease UP-TO-DATE
+> Task :app:processSemanticReleaseMainManifest
+> Task :app:processSemanticReleaseManifest
+> Task :app:processSemanticReleaseManifestForPackage
+> Task :app:processSemanticReleaseResources
+> Task :app:expandSemanticReleaseArtProfileWildcards
+> Task :app:mergeSemanticReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processSemanticReleaseJavaRes
+> Task :app:mergeSemanticReleaseJavaResource
+> Task :app:mergeSemanticReleaseStartupProfile UP-TO-DATE
+> Task :app:minifySemanticReleaseWithR8
+> Task :app:compileSemanticReleaseArtProfile
+> Task :app:generateSemanticReleaseAssets UP-TO-DATE
+> Task :app:mergeSemanticReleaseAssets UP-TO-DATE
+> Task :app:compressSemanticReleaseAssets UP-TO-DATE
+> Task :app:extractSemanticReleaseVersionControlInfo UP-TO-DATE
+> Task :app:generateSemanticReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeSemanticRelease
+> Task :app:lintVitalReportSemanticRelease
+> Task :app:lintVitalSemanticRelease
+> Task :app:convertShrunkResourcesToBinarySemanticRelease
+> Task :app:optimizeSemanticReleaseResources
+> Task :app:collectSemanticReleaseDependencies
+> Task :app:sdkSemanticReleaseDependencyData
+> Task :app:validateSigningSemanticRelease UP-TO-DATE
+> Task :app:writeSemanticReleaseAppMetadata UP-TO-DATE
+> Task :app:writeSemanticReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:packageSemanticRelease
+> Task :app:createSemanticReleaseApkListingFileRedirect
+> Task :app:assembleSemanticRelease
+> Task :app:preEnhancedReleaseBuild UP-TO-DATE
+> Task :app:mergeEnhancedReleaseJniLibFolders
+> Task :app:mergeEnhancedReleaseNativeLibs
+
+> Task :app:stripEnhancedReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libmlkit_google_ocr_pipeline.so, libonnxruntime.so, libonnxruntime4j_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:extractEnhancedReleaseNativeSymbolTables
+> Task :app:mergeEnhancedReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkEnhancedReleaseDuplicateClasses
+> Task :app:generateEnhancedReleaseResValues
+> Task :app:generateEnhancedReleaseResources
+> Task :app:packageEnhancedReleaseResources
+> Task :app:processEnhancedReleaseNavigationResources
+> Task :app:parseEnhancedReleaseLocalResources
+> Task :app:generateEnhancedReleaseRFile
+> Task :app:kspEnhancedReleaseKotlin
+> Task :app:compileEnhancedReleaseKotlin
+> Task :app:javaPreCompileEnhancedRelease
+> Task :app:compileEnhancedReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeEnhancedReleaseArtProfile
+> Task :app:checkEnhancedReleaseAarMetadata
+> Task :app:mapEnhancedReleaseSourceSetPaths
+> Task :app:compileEnhancedReleaseNavigationResources
+> Task :app:mergeEnhancedReleaseResources
+> Task :app:createEnhancedReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksEnhancedRelease
+> Task :app:processEnhancedReleaseMainManifest
+> Task :app:processEnhancedReleaseManifest
+> Task :app:processEnhancedReleaseManifestForPackage
+> Task :app:processEnhancedReleaseResources
+> Task :app:expandEnhancedReleaseArtProfileWildcards
+> Task :app:mergeEnhancedReleaseGeneratedProguardFiles
+> Task :app:processEnhancedReleaseJavaRes
+> Task :app:mergeEnhancedReleaseJavaResource
+> Task :app:mergeEnhancedReleaseStartupProfile
+> Task :app:minifyEnhancedReleaseWithR8
+> Task :app:compileEnhancedReleaseArtProfile
+> Task :app:generateEnhancedReleaseAssets UP-TO-DATE
+> Task :app:mergeEnhancedReleaseAssets
+> Task :app:compressEnhancedReleaseAssets
+> Task :app:extractEnhancedReleaseVersionControlInfo
+> Task :app:generateEnhancedReleaseLintVitalReportModel
+> Task :app:lintVitalAnalyzeEnhancedRelease
+> Task :app:lintVitalReportEnhancedRelease
+> Task :app:lintVitalEnhancedRelease
+> Task :app:convertShrunkResourcesToBinaryEnhancedRelease
+> Task :app:optimizeEnhancedReleaseResources
+> Task :app:collectEnhancedReleaseDependencies
+> Task :app:sdkEnhancedReleaseDependencyData
+> Task :app:validateSigningEnhancedRelease
+> Task :app:writeEnhancedReleaseAppMetadata
+> Task :app:writeEnhancedReleaseSigningConfigVersions
+> Task :app:packageEnhancedRelease
+> Task :app:createEnhancedReleaseApkListingFileRedirect
+> Task :app:assembleEnhancedRelease
+
+BUILD SUCCESSFUL in 10m 32s
+145 actionable tasks: 110 executed, 35 up-to-date
+Configuration cache entry stored.

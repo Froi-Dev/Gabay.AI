@@ -1,0 +1,9 @@
+
+com.example.gabayai.NativeWorkflowTest:..
+com.example.gabayai.CameraCaptureTest:.
+
+Time: 20.242
+
+OK (3 tests)
+
+

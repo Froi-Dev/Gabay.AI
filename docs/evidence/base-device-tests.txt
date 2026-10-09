@@ -1,0 +1,19 @@
+Airplane mode: 1
+Wi-Fi: 0
+
+com.example.gabayai.CameraCaptureTest:.
+com.example.gabayai.ExampleInstrumentedTest:.
+com.example.gabayai.NativeWorkflowTest:..
+com.example.gabayai.ParentSectionRegressionTest:INSTRUMENTATION_STATUS: gabay_parent_crop_metrics={"fixture":"user-blank-parent-section","ocr_ms":262,"room_and_matching_ms":973,"ocr_line_count":21,"matched_fields":9,"name_fields":8,"source_backed_fields":0,"form_identity_confirmed":false}
+INSTRUMENTATION_STATUS_CODE: 0
+.
+com.example.gabayai.SliceTest:INSTRUMENTATION_STATUS: gabay_slice_metrics={"fixture":"bundled-public-psa-birth","preparation_ms":65,"ocr_ms":914,"room_seed_and_matching_ms":3414,"width":1584,"height":1224,"ocr_line_count":94,"matched_fields":22,"source_pdf_hash_valid":true,"physical_camera_test":false}
+INSTRUMENTATION_STATUS_CODE: 0
+.
+com.example.gabayai.imaging.OfflineImagingTest:....
+
+Time: 32.703
+
+OK (10 tests)
+
+

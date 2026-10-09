@@ -1,0 +1,11 @@
+Airplane mode=1; Wi-Fi=0; public bundled blank PSA fixture.
+
+com.example.gabayai.SliceTest:INSTRUMENTATION_STATUS: gabay_slice_metrics={"fixture":"bundled-public-psa-birth","preparation_ms":121,"ocr_ms":1473,"room_seed_and_matching_ms":485,"width":1584,"height":1224,"ocr_line_count":94,"matched_fields":1,"source_pdf_hash_valid":true,"physical_camera_test":false}
+INSTRUMENTATION_STATUS_CODE: 0
+.
+
+Time: 2.265
+
+OK (1 test)
+
+

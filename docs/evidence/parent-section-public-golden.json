@@ -1,0 +1,310 @@
+{
+  "fixture": "user-blank-parent-section",
+  "width": 697,
+  "height": 429,
+  "lines": [
+    {
+      "text": "Father's",
+      "box": [
+        13,
+        17,
+        65,
+        34
+      ],
+      "confidence": 0.90625
+    },
+    {
+      "text": "Name",
+      "box": [
+        13,
+        37,
+        51,
+        53
+      ],
+      "confidence": 0.88671875
+    },
+    {
+      "text": "Mother's",
+      "box": [
+        15,
+        174,
+        68,
+        187
+      ],
+      "confidence": 0.8696289
+    },
+    {
+      "text": "Maiden",
+      "box": [
+        12,
+        191,
+        60,
+        208
+      ],
+      "confidence": 0.8854167
+    },
+    {
+      "text": "Name",
+      "box": [
+        10,
+        212,
+        51,
+        227
+      ],
+      "confidence": 0.8544922
+    },
+    {
+      "text": "Last Name",
+      "box": [
+        115,
+        19,
+        172,
+        30
+      ],
+      "confidence": 0.86621094
+    },
+    {
+      "text": "First Name (include JR., SR., I, I, IV, etc., if applicable)",
+      "box": [
+        115,
+        70,
+        414,
+        83
+      ],
+      "confidence": 0.75875
+    },
+    {
+      "text": "Middle Name",
+      "box": [
+        114,
+        120,
+        185,
+        131
+      ],
+      "confidence": 0.84101564
+    },
+    {
+      "text": "Last Name (before marriage)",
+      "box": [
+        114,
+        170,
+        272,
+        189
+      ],
+      "confidence": 0.81070966
+    },
+    {
+      "text": "First Name",
+      "box": [
+        114,
+        224,
+        171,
+        235
+      ],
+      "confidence": 0.86241317
+    },
+    {
+      "text": "Middle Name (before marriage)",
+      "box": [
+        113,
+        272,
+        285,
+        290
+      ],
+      "confidence": 0.81084734
+    },
+    {
+      "text": "PURPOSE OF YOUR REQUEST",
+      "box": [
+        11,
+        328,
+        211,
+        345
+      ],
+      "confidence": 0.84824216
+    },
+    {
+      "text": "D Claim Benefits\/Loan",
+      "box": [
+        34,
+        355,
+        140,
+        371
+      ],
+      "confidence": 0.75884044
+    },
+    {
+      "text": "O Employment (Local)",
+      "box": [
+        29,
+        374,
+        139,
+        394
+      ],
+      "confidence": 0.8075087
+    },
+    {
+      "text": "O School Requirements",
+      "box": [
+        11,
+        398,
+        146,
+        416
+      ],
+      "confidence": 0.7759046
+    },
+    {
+      "text": "D Passport\/Travel:",
+      "box": [
+        224,
+        354,
+        330,
+        371
+      ],
+      "confidence": 0.73483455
+    },
+    {
+      "text": "DEmployment (Abroad):",
+      "box": [
+        239,
+        377,
+        362,
+        394
+      ],
+      "confidence": 0.8359375
+    },
+    {
+      "text": "Others:",
+      "box": [
+        243,
+        401,
+        282,
+        413
+      ],
+      "confidence": 0.68303573
+    },
+    {
+      "text": "(Specify Country)",
+      "box": [
+        538,
+        355,
+        629,
+        374
+      ],
+      "confidence": 0.81640625
+    },
+    {
+      "text": "(Specify Country)",
+      "box": [
+        540,
+        377,
+        629,
+        393
+      ],
+      "confidence": 0.7631836
+    },
+    {
+      "text": "(Specity)",
+      "box": [
+        539,
+        401,
+        585,
+        416
+      ],
+      "confidence": 0.6866319
+    }
+  ],
+  "matches": [
+    {
+      "field_id": "general.last_name",
+      "label": "Last Name",
+      "box": [
+        115,
+        19,
+        172,
+        30
+      ],
+      "method": "EXACT",
+      "context_role": "FATHER",
+      "context_label": "Father's Name"
+    },
+    {
+      "field_id": "general.first_name",
+      "label": "First Name (include JR., SR., I, I, IV, etc., if applicable)",
+      "box": [
+        115,
+        70,
+        414,
+        83
+      ],
+      "method": "EXACT",
+      "context_role": "FATHER",
+      "context_label": "Father's Name"
+    },
+    {
+      "field_id": "general.middle_name",
+      "label": "Middle Name",
+      "box": [
+        114,
+        120,
+        185,
+        131
+      ],
+      "method": "EXACT",
+      "context_role": "FATHER",
+      "context_label": "Father's Name"
+    },
+    {
+      "field_id": "general.last_name",
+      "label": "Last Name (before marriage)",
+      "box": [
+        114,
+        170,
+        272,
+        189
+      ],
+      "method": "EXACT",
+      "context_role": "MOTHER",
+      "context_label": "Mother's Maiden Name"
+    },
+    {
+      "field_id": "general.first_name",
+      "label": "First Name",
+      "box": [
+        114,
+        224,
+        171,
+        235
+      ],
+      "method": "EXACT",
+      "context_role": "MOTHER",
+      "context_label": "Mother's Maiden Name"
+    },
+    {
+      "field_id": "general.middle_name",
+      "label": "Middle Name (before marriage)",
+      "box": [
+        113,
+        272,
+        285,
+        290
+      ],
+      "method": "EXACT",
+      "context_role": "MOTHER",
+      "context_label": "Mother's Maiden Name"
+    },
+    {
+      "field_id": "general.purpose",
+      "label": "PURPOSE OF YOUR REQUEST",
+      "box": [
+        11,
+        328,
+        211,
+        345
+      ],
+      "method": "EXACT",
+      "context_role": null,
+      "context_label": null
+    }
+  ]
+}

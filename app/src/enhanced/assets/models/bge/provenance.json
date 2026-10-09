@@ -1,0 +1,23 @@
+{
+  "model": "BAAI/bge-large-en-v1.5",
+  "onnx_publisher": "onnx-community",
+  "onnx_repository": "onnx-community/bge-large-en-v1.5-ONNX",
+  "revision": "2fb1aa0d84fb0a59a4273cce47d90c7d2f7264bb",
+  "upstream_file": "onnx/model.onnx",
+  "download_url": "https://huggingface.co/onnx-community/bge-large-en-v1.5-ONNX/resolve/2fb1aa0d84fb0a59a4273cce47d90c7d2f7264bb/onnx/model.onnx",
+  "model_bytes": 1336749542,
+  "sha256": "deb82329ff0e9725a0d8407e434be40a7793725ce4e3032d8091f615130d0105",
+  "vocabulary_bytes": 231508,
+  "vocabulary_sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+  "license": "MIT, declared by the upstream BAAI and ONNX publisher model cards",
+  "license_text_origin": "https://github.com/FlagOpen/FlagEmbedding/blob/master/LICENSE",
+  "language": "English",
+  "dimensions": 1024,
+  "pooling": "First token (CLS), then L2 normalization, as specified by the upstream BAAI model card",
+  "application_maximum_tokens": 64,
+  "changes_to_publisher_weights": "None; published FP32 file",
+  "runtime": "com.microsoft.onnxruntime:onnxruntime-android:1.24.3",
+  "application_use": "Optional suggestions for rule-unmatched English field labels; explicit user confirmation required",
+  "limitations": "Not an OCR model, translator, generator, government policy model, or verified source of person roles. Size does not establish accuracy. App thresholds are uncalibrated.",
+  "download_verified_on": "2026-10-10"
+}

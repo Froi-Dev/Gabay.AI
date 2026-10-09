@@ -1,0 +1,325 @@
+INSTRUMENTATION_STATUS: class=com.example.gabayai.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.OfflineImagingTest:
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.OfflineImagingTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Failed loading specified test class 'com.example.gabayai.OfflineImagingTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:835)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:650)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:418)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2335)
+Caused by: java.lang.ClassNotFoundException: com.example.gabayai.OfflineImagingTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.gabayai.OfflineImagingTest" on path: DexPathList[[zip file "/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk", zip file "/data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk"],nativeLibraryDirectories=[/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/lib/arm64, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/lib/arm64, /data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk!/lib/arm64-v8a, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in initializationError(com.example.gabayai.OfflineImagingTest):
+java.lang.RuntimeException: Failed loading specified test class 'com.example.gabayai.OfflineImagingTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:835)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:650)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:418)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2335)
+Caused by: java.lang.ClassNotFoundException: com.example.gabayai.OfflineImagingTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.gabayai.OfflineImagingTest" on path: DexPathList[[zip file "/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk", zip file "/data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk"],nativeLibraryDirectories=[/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/lib/arm64, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/lib/arm64, /data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk!/lib/arm64-v8a, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+
+INSTRUMENTATION_STATUS: test=initializationError
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.semantic.OfflineSemanticTest:
+INSTRUMENTATION_STATUS: test=actualInferenceReturnsOnlyUnconfirmedSuggestions
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.example.gabayai.semantic.OfflineSemanticTest$actualInferenceReturnsOnlyUnconfirmedSuggestions$1.invokeSuspend(OfflineSemanticTest.kt:59)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.semantic.OfflineSemanticTest.actualInferenceReturnsOnlyUnconfirmedSuggestions(OfflineSemanticTest.kt:54)
+
+INSTRUMENTATION_STATUS: stream=
+Error in actualInferenceReturnsOnlyUnconfirmedSuggestions(com.example.gabayai.semantic.OfflineSemanticTest):
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.example.gabayai.semantic.OfflineSemanticTest$actualInferenceReturnsOnlyUnconfirmedSuggestions$1.invokeSuspend(OfflineSemanticTest.kt:59)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.semantic.OfflineSemanticTest.actualInferenceReturnsOnlyUnconfirmedSuggestions(OfflineSemanticTest.kt:54)
+
+INSTRUMENTATION_STATUS: test=actualInferenceReturnsOnlyUnconfirmedSuggestions
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=closingReleasesEngineAndRejectsFurtherInference
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=closingReleasesEngineAndRejectsFurtherInference
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=directivesValuesLowConfidenceAndSourceSpecificRolesAreRejected
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=directivesValuesLowConfidenceAndSourceSpecificRolesAreRejected
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualBundledModelProducesNormalizedMeaningfulEmbeddings
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=
+SEMANTIC_METRICS model=MiniLM L6 int8 first_ms=424 warm_ms=7 postal_zip_cosine=0.6164633 postal_birth_cosine=0.19962662 dimensions=384 loaded_pss_kb=237220
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.semantic.OfflineSemanticTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualBundledModelProducesNormalizedMeaningfulEmbeddings
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.ParentSectionRegressionTest:
+INSTRUMENTATION_STATUS: test=realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: gabay_public_fixture_golden=/data/user/0/com.example.gabayai.semantic/cache/parent-section-public-golden.json
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Readable mother section must contextualize all three printed name labels.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.gabayai.ParentSectionRegressionTest$realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob$1.invokeSuspend(ParentSectionRegressionTest.kt:115)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.ParentSectionRegressionTest.realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob(ParentSectionRegressionTest.kt:54)
+
+INSTRUMENTATION_STATUS: stream=
+Error in realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob(com.example.gabayai.ParentSectionRegressionTest):
+java.lang.AssertionError: Readable mother section must contextualize all three printed name labels.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.gabayai.ParentSectionRegressionTest$realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob$1.invokeSuspend(ParentSectionRegressionTest.kt:115)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.ParentSectionRegressionTest.realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob(ParentSectionRegressionTest.kt:54)
+
+INSTRUMENTATION_STATUS: test=realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=aRetiredPublicDefinitionAndItsAliasesAreRemovedOnCatalogueReseed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.ParentSectionRegressionTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=aRetiredPublicDefinitionAndItsAliasesAreRemovedOnCatalogueReseed
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.SliceTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.SliceTest:
+INSTRUMENTATION_STATUS: test=bundledPublicFormTraversesImageOcrRoomAndSourceBackedExplanation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: gabay_slice_metrics={"fixture":"bundled-public-psa-birth","preparation_ms":97,"ocr_ms":1037,"room_seed_and_matching_ms":242,"width":1584,"height":1224,"ocr_line_count":94,"matched_fields":20,"source_pdf_hash_valid":true,"physical_camera_test":false}
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.SliceTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bundledPublicFormTraversesImageOcrRoomAndSourceBackedExplanation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.NativeWorkflowTest:
+INSTRUMENTATION_STATUS: test=savedEnglishPreferenceSurvivesActivityRecreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=savedEnglishPreferenceSurvivesActivityRecreation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.NativeWorkflowTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualOfflineSampleSupportsOriginalLabelsReviewLanguageSwitchAndCompletion
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.example.gabayai.CameraCaptureTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=
+com.example.gabayai.CameraCaptureTest:
+INSTRUMENTATION_STATUS: test=actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.example.gabayai.CameraCaptureTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=11
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=actualRearCameraCapturesPreviewAndReachesOfflineOcrOutcome
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 22.403
+There were 3 failures:
+1) initializationError(com.example.gabayai.OfflineImagingTest)
+java.lang.RuntimeException: Failed loading specified test class 'com.example.gabayai.OfflineImagingTest'
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:50)
+	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:64)
+	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:835)
+	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:650)
+	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:418)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2335)
+Caused by: java.lang.ClassNotFoundException: com.example.gabayai.OfflineImagingTest
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:591)
+	at androidx.test.internal.runner.DirectTestLoader.doCreateRunner(DirectTestLoader.java:44)
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: Didn't find class "com.example.gabayai.OfflineImagingTest" on path: DexPathList[[zip file "/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk", zip file "/data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk"],nativeLibraryDirectories=[/data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/lib/arm64, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/lib/arm64, /data/app/~~sXUVJ3ko0_I8x77kEyv9mg==/com.example.gabayai.semantic.test-PYX8r7WbgV6cJq7WWuCyfA==/base.apk!/lib/arm64-v8a, /data/app/~~UzJGzFmiz2vtiGskAQO7YQ==/com.example.gabayai.semantic-Wj2X40V5wmw5kroDLdhvJA==/base.apk!/lib/arm64-v8a, /system/lib64, /system_ext/lib64]]
+	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:248)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:644)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:580)
+	... 8 more
+2) actualInferenceReturnsOnlyUnconfirmedSuggestions(com.example.gabayai.semantic.OfflineSemanticTest)
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.example.gabayai.semantic.OfflineSemanticTest$actualInferenceReturnsOnlyUnconfirmedSuggestions$1.invokeSuspend(OfflineSemanticTest.kt:59)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.semantic.OfflineSemanticTest.actualInferenceReturnsOnlyUnconfirmedSuggestions(OfflineSemanticTest.kt:54)
+3) realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob(com.example.gabayai.ParentSectionRegressionTest)
+java.lang.AssertionError: Readable mother section must contextualize all three printed name labels.
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.example.gabayai.ParentSectionRegressionTest$realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob$1.invokeSuspend(ParentSectionRegressionTest.kt:115)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:70)
+	at kotlinx.coroutines.BuildersKt.runBlocking(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:48)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(dex-id-787d7f616d3d78a0aa9d46b130fac1862b9d4ef4:1)
+	at com.example.gabayai.ParentSectionRegressionTest.realParentCropUsesPrintedFatherAndMotherSectionsWithoutGovernmentIdentityOrDob(ParentSectionRegressionTest.kt:54)
+
+FAILURES!!!
+Tests run: 11,  Failures: 3
+
+
+INSTRUMENTATION_CODE: -1

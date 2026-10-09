@@ -1,0 +1,144 @@
+Calculating task graph as configuration cache cannot be reused because a build logic input of type 'IsTerminalSmartValueSource' has changed.
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preBaseDebugBuild UP-TO-DATE
+> Task :app:generateBaseDebugResValues UP-TO-DATE
+> Task :app:generateBaseDebugResources UP-TO-DATE
+> Task :app:packageBaseDebugResources UP-TO-DATE
+> Task :app:processBaseDebugNavigationResources UP-TO-DATE
+> Task :app:parseBaseDebugLocalResources UP-TO-DATE
+> Task :app:generateBaseDebugRFile UP-TO-DATE
+> Task :app:kspBaseDebugKotlin UP-TO-DATE
+> Task :app:compileBaseDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileBaseDebug UP-TO-DATE
+> Task :app:compileBaseDebugJavaWithJavac NO-SOURCE
+> Task :app:checkBaseDebugAarMetadata UP-TO-DATE
+> Task :app:mapBaseDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileBaseDebugNavigationResources UP-TO-DATE
+> Task :app:mergeBaseDebugResources UP-TO-DATE
+> Task :app:createBaseDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksBaseDebug UP-TO-DATE
+> Task :app:processBaseDebugMainManifest UP-TO-DATE
+> Task :app:processBaseDebugManifest UP-TO-DATE
+> Task :app:processBaseDebugManifestForPackage UP-TO-DATE
+> Task :app:processBaseDebugResources UP-TO-DATE
+> Task :app:bundleBaseDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleBaseDebugClassesToCompileJar UP-TO-DATE
+> Task :app:kspBaseDebugUnitTestKotlin
+> Task :app:preBaseDebugUnitTestBuild UP-TO-DATE
+> Task :app:compileBaseDebugUnitTestKotlin
+> Task :app:javaPreCompileBaseDebugUnitTest UP-TO-DATE
+> Task :app:compileBaseDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processBaseDebugJavaRes UP-TO-DATE
+> Task :app:processBaseDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testBaseDebugUnitTest
+> Task :app:preSemanticDebugBuild UP-TO-DATE
+> Task :app:generateSemanticDebugResValues UP-TO-DATE
+> Task :app:generateSemanticDebugResources UP-TO-DATE
+> Task :app:packageSemanticDebugResources UP-TO-DATE
+> Task :app:processSemanticDebugNavigationResources UP-TO-DATE
+> Task :app:parseSemanticDebugLocalResources UP-TO-DATE
+> Task :app:generateSemanticDebugRFile UP-TO-DATE
+> Task :app:kspSemanticDebugKotlin UP-TO-DATE
+> Task :app:compileSemanticDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileSemanticDebug UP-TO-DATE
+> Task :app:compileSemanticDebugJavaWithJavac NO-SOURCE
+> Task :app:checkSemanticDebugAarMetadata UP-TO-DATE
+> Task :app:mapSemanticDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileSemanticDebugNavigationResources UP-TO-DATE
+> Task :app:mergeSemanticDebugResources UP-TO-DATE
+> Task :app:createSemanticDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksSemanticDebug UP-TO-DATE
+> Task :app:processSemanticDebugMainManifest UP-TO-DATE
+> Task :app:processSemanticDebugManifest UP-TO-DATE
+> Task :app:processSemanticDebugManifestForPackage UP-TO-DATE
+> Task :app:processSemanticDebugResources UP-TO-DATE
+> Task :app:bundleSemanticDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleSemanticDebugClassesToCompileJar UP-TO-DATE
+> Task :app:kspSemanticDebugUnitTestKotlin
+> Task :app:preSemanticDebugUnitTestBuild UP-TO-DATE
+> Task :app:compileSemanticDebugUnitTestKotlin
+> Task :app:javaPreCompileSemanticDebugUnitTest UP-TO-DATE
+> Task :app:compileSemanticDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processSemanticDebugJavaRes UP-TO-DATE
+> Task :app:processSemanticDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testSemanticDebugUnitTest
+> Task :app:preEnhancedDebugBuild UP-TO-DATE
+> Task :app:generateEnhancedDebugResValues UP-TO-DATE
+> Task :app:generateEnhancedDebugResources UP-TO-DATE
+> Task :app:packageEnhancedDebugResources UP-TO-DATE
+> Task :app:processEnhancedDebugNavigationResources UP-TO-DATE
+> Task :app:parseEnhancedDebugLocalResources UP-TO-DATE
+> Task :app:generateEnhancedDebugRFile UP-TO-DATE
+> Task :app:kspEnhancedDebugKotlin UP-TO-DATE
+> Task :app:compileEnhancedDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileEnhancedDebug UP-TO-DATE
+> Task :app:compileEnhancedDebugJavaWithJavac NO-SOURCE
+> Task :app:checkEnhancedDebugAarMetadata UP-TO-DATE
+> Task :app:mapEnhancedDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileEnhancedDebugNavigationResources UP-TO-DATE
+> Task :app:mergeEnhancedDebugResources UP-TO-DATE
+> Task :app:createEnhancedDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksEnhancedDebug UP-TO-DATE
+> Task :app:processEnhancedDebugMainManifest UP-TO-DATE
+> Task :app:processEnhancedDebugManifest UP-TO-DATE
+> Task :app:processEnhancedDebugManifestForPackage UP-TO-DATE
+> Task :app:processEnhancedDebugResources UP-TO-DATE
+> Task :app:bundleEnhancedDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:bundleEnhancedDebugClassesToCompileJar UP-TO-DATE
+> Task :app:kspEnhancedDebugUnitTestKotlin
+> Task :app:preEnhancedDebugUnitTestBuild UP-TO-DATE
+> Task :app:compileEnhancedDebugUnitTestKotlin
+> Task :app:javaPreCompileEnhancedDebugUnitTest UP-TO-DATE
+> Task :app:compileEnhancedDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processEnhancedDebugJavaRes UP-TO-DATE
+> Task :app:processEnhancedDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testEnhancedDebugUnitTest
+> Task :app:preBaseDebugAndroidTestBuild SKIPPED
+> Task :app:generateBaseDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateBaseDebugAndroidTestLintModel
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:generateBaseDebugLintReportModel UP-TO-DATE
+> Task :app:generateBaseDebugUnitTestLintModel
+> Task :app:lintAnalyzeBaseDebug UP-TO-DATE
+> Task :app:lintAnalyzeBaseDebugAndroidTest
+> Task :app:lintAnalyzeBaseDebugUnitTest
+> Task :app:lintReportBaseDebug UP-TO-DATE
+> Task :app:lintBaseDebug
+> Task :app:preSemanticDebugAndroidTestBuild SKIPPED
+> Task :app:generateSemanticDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateSemanticDebugAndroidTestLintModel
+> Task :app:generateSemanticDebugLintReportModel
+> Task :app:generateSemanticDebugUnitTestLintModel
+> Task :app:lintAnalyzeSemanticDebug
+> Task :app:lintAnalyzeSemanticDebugAndroidTest
+> Task :app:lintAnalyzeSemanticDebugUnitTest
+
+> Task :app:lintReportSemanticDebug
+Wrote HTML report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-semanticDebug.html
+Wrote SARIF report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-semanticDebug.sarif
+
+> Task :app:lintSemanticDebug
+> Task :app:preEnhancedDebugAndroidTestBuild SKIPPED
+> Task :app:generateEnhancedDebugAndroidTestResValues UP-TO-DATE
+> Task :app:generateEnhancedDebugAndroidTestLintModel UP-TO-DATE
+> Task :app:generateEnhancedDebugLintReportModel UP-TO-DATE
+> Task :app:generateEnhancedDebugUnitTestLintModel UP-TO-DATE
+> Task :app:lintAnalyzeEnhancedDebug
+> Task :app:lintAnalyzeEnhancedDebugAndroidTest UP-TO-DATE
+> Task :app:lintAnalyzeEnhancedDebugUnitTest UP-TO-DATE
+
+> Task :app:lintReportEnhancedDebug
+Wrote HTML report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-enhancedDebug.html
+Wrote SARIF report to file:///C:/Users/dever/AndroidStudioProjects/GabayAI/app/build/reports/lint-results-enhancedDebug.sarif
+
+> Task :app:lintEnhancedDebug
+
+BUILD SUCCESSFUL in 2m 39s
+109 actionable tasks: 25 executed, 84 up-to-date
+Configuration cache entry stored.
